@@ -125,7 +125,7 @@
 
 // //task 3
 
-// //a , c
+// // a , c
 // var x = 5 ;
 
 
@@ -345,4 +345,123 @@
 // if (guess == 6) { alert ( "Bingo! Correct answer" );}
 // else if  (guess == 7) { alert ( "Close enough to the correct answer" );}
 // else if (guess < 7) { alert ( "Wrong answer try again after refreshing the page" );}
-// else if (guess > 7) { alert ( "Wrong answer try again after refreshing the page" );}
+// else if (guess > 7) { alert ( "Wrong answer try again after refreshing the page" );
+
+// //task 10
+// var t= prompt("enter the temprature in your area");
+// if ( t > 40 ) { alert ("It is too hot outside");
+// }
+// else if ( t > 30 ) { alert ("The Weather today is Normal");
+// }
+// else if ( t > 20 ) { alert ("Today’s Weather is cool");
+// }
+// else if ( t > 10 ) { alert ("OMG! Today’s weather is so Cool");
+// }
+
+//task 11
+var a = prompt ("Enter first value");
+var b = prompt ("Enter operator");
+var c = prompt ("Enter second value");
+if (b === "+") {
+    alert ((+a)+(+c))
+}
+else if (b === "-"){
+    alert (a-c)
+}
+else if (b === "*"){
+    alert (a*c)
+}
+else if (b === "/"){
+    alert (a/c)
+}
+
+
+
+// //chapter 17-20
+
+// //task 1
+// var arr = [];
+
+// //task 2
+// var mat1 = [0,1,2,3]
+// var mat2 = [1,0,1,2]
+// var mat3 = [2,1,0,1]
+// document.write (mat1)
+// document.write ("<br>" +mat2)
+// document.write ( "<br>" + mat3)
+
+
+// //task 3
+// for (i=1; i<=10; i++ ){
+//     document.write(i + "<br>");
+// }
+
+// //task 4
+// var t = prompt ("enter a number to show its table ");
+
+// for (i=1; i<=10; i++ ){
+//     document.write ( t + "x " + i + "=" + t*i + "<br>"  );
+// }
+
+// //task 5
+// fruits = ["apple", "banana", "mango", "orange", "strawberry"];  
+// document.write (fruits[0] + "<br>" ); 
+// document.write (fruits[1] + "<br>" );
+// document.write (fruits[2] + "<br>" );
+// document.write (fruits[3] + "<br>" );
+// document.write (fruits[4] + "<br>" );
+
+// //task 6
+// document.write (" <h1> Counting  </h1>")
+// for(i=1; i<=15; i++){
+//     document.write (i + " " );
+// }
+// document.write (" <h1> Backward Counting </h1>")
+// for(i=10; i>=1; i--){
+//     document.write (i + " ");
+// }
+// document.write (" <h1> even </h1>")
+// for(i=0; i<=20; i=i+2){
+//     document.write (i + " ");
+// }
+// document.write (" <h1> odd </h1>")
+// for(i=1; i<=20; i=i+2){
+//     document.write (i + " ");
+// }
+// document.write (" <h1> series  </h1>")
+// for(i=1; i<=20; i++){
+//     document.write (i + "k" + " ");
+// }
+
+// //task 7
+// var B = prompt ("welcome to abc bakery what do you want to oder")
+// var A = ["cake", "apple pie", "cookie", "chips", "patties"]
+// if (B == A){
+//     alert ( B + " is available at our bakery");
+// } 
+// else {
+//     alert (B + " is not available at our bakery");
+// }
+
+
+
+
+// for (a=0; a<A.length; a++ ){
+// if (B === A){alert ( B + " is available at our bakery"); }
+// else {
+// alert (B + " is not available at our bakery");}
+// break
+// }
+
+
+
+// //task 8
+// var a  = [24, 53, 78, 91, 12]
+// for (i=0; i=a.length; i++){ 
+//    document.write (Math.max + (a) ) ;  break
+// }
+
+// //task 10
+// for (i=5; i<=100; i=i+5 ){
+//     document.write (i + " ")
+// }
