@@ -410,18 +410,75 @@
 // }
 // else{alert("false")}
 
-//task 5
-var pass = ("topsecret");
-var guess = prompt ("enter the correct password")
-
-if (guess === "" ){alert ("Please enter your password");}
-else if (guess === pass ){alert ("Correct! The password you entered matches the original password");}
-else {alert ("Incorrect password");}
+// //task 5
+// var pass = ("topsecret");
+// var guess = prompt ("enter the correct password")
+// if (guess === "" ){alert ("Please enter your password");}
+// else if (guess === pass ){alert ("Correct! The password you entered matches the original password");}
+// else {alert ("Incorrect password");}
 
 // //task 6
 // var hour = 13; 
 // if (hour < 18) {  alert ("Good day");}
 // else {alert ("Good evening"); }
+
+// //chapter 14-16
+// //task 1
+// var arr1 = [];
+
+// //task 2
+// var arr2 = [];
+
+// //task 3
+// var string = ["string0" , "string1" , "string2" , "string3"]
+
+// //task 4
+// var num = [0 , 1 , 2 , 3];
+
+// //task 5
+// var boolean = ["true" , "false"];
+
+// //task 6
+// var mixed = ["hamza" , "js" , 445 , "false" ];
+
+// //task 7
+// var qualification = [ "SSC", "HSC", "BCS", "BS", "BCOM", "MS", "M. Phil", "PhD"];
+
+// for (i=0; i<qualification.length ; i++){
+//    document.write  (qualification[i] + "<br>" );
+// }
+
+// //task 8
+// var student = ["micheal" , "john" , "tony"];
+// var marks = [320 , 230 , 480]
+// var totalMarks = ("500")
+// document.write( "score of " + student[0] + " is " + marks[0] + ". percentage " + ((marks[0]/totalMarks)*100) + "%")
+// document.write( "<br>score of " + student[1] + " is " + marks[1] + ". percentage " + ((marks[1]/totalMarks)*100) + "%")
+// document.write( "<br>score of " + student[2] + " is " + marks[2] + ". percentage " + ((marks[2]/totalMarks)*100) + "%")
+
+// //task 9
+// var color = [];
+// color[0] = prompt(" what color you want to add to the beginning array")
+// alert (color); 
+// color[1] = prompt(" what color you want to add at the last array")
+// alert (color);
+// color = prompt(" what color you want to add to the beginning array")
+// alert (color);
+
+
+// //task 11
+// var cities = ["karachi" , "lahore" , "islamabad" , "peshawar" , "quetta"],
+// selectedcities = cities [ 2 ] ;
+// document.write ("<h1> cites list </h1>" + cities)
+// document.write ("<h1> selected cites list </h1>" + selectedcities)
+
+//task 12
+var arr = ["This" , "is", "my", "cat"]; 
+document.write ("<h1> array </h1> " + arr)
+document.write ("<h1> string </h1> ");
+for (i=0; i<arr.length; i++ ){
+    document.write (arr[i] + " ");
+}
 
 
 // //chapter 17-20
