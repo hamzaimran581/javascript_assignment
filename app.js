@@ -358,23 +358,70 @@
 // else if ( t > 10 ) { alert ("OMG! Today’s weather is so Cool");
 // }
 
-//task 11
-var a = prompt ("Enter first value");
-var b = prompt ("Enter operator");
-var c = prompt ("Enter second value");
-if (b === "+") {
-    alert ((+a)+(+c))
-}
-else if (b === "-"){
-    alert (a-c)
-}
-else if (b === "*"){
-    alert (a*c)
-}
-else if (b === "/"){
-    alert (a/c)
-}
+// //task 11
+// var a = prompt ("Enter first value");
+// var b = prompt ("Enter operator");
+// var c = prompt ("Enter second value");
+// if (b === "+") {
+//     alert ((+a)+(+c))
+// }
+// else if (b === "-"){
+//     alert (a-c)
+// }
+// else if (b === "*"){
+//     alert (a*c)
+// }
+// else if (b === "/"){
+//     alert (a/c)
+// }
 
+// //chapter 12-13
+// //task 1
+// var a = prompt ("enter a number or a string");
+// if (a.charCodeAt(0)>=65 && a.charCodeAt(0)>=90 ){
+//     alert ("input letter is upper case");
+// }
+// else if ( a.charCodeAt(0)>=97 && a.charCodeAt(0)>=122 ){
+//     alert("input letter is upper case");
+// }
+// else {
+//     alert ("its a number")
+// }
+
+// //task 2
+// var interger1 = prompt("write first integer");
+// var interger2 = prompt("write second integer");
+// if (interger1>interger2){alert (interger1);}
+// else if (interger2>interger1){alert (interger2);}
+// else if (interger1 === interger2 ){alert(interger1);}
+// else {alert ("given input is incorrect")}
+
+// //task 3
+// var number = prompt ("enter a number");
+// if (number> 0 ){alert("the number is positive"); }
+// else if (number< 0 ){alert("the number is negative");}
+// else if ( +number === 0 ){alert ("the number is zero"); }
+// else{alert("given input is incorrect")}
+
+// //task 4
+// var letter = prompt("enter a letter");
+// if (letter === "a"  || letter === "e" || letter === "i" || letter === "o" || letter === "u"    ){
+// alert ("true")
+// }
+// else{alert("false")}
+
+//task 5
+var pass = ("topsecret");
+var guess = prompt ("enter the correct password")
+
+if (guess === "" ){alert ("Please enter your password");}
+else if (guess === pass ){alert ("Correct! The password you entered matches the original password");}
+else {alert ("Incorrect password");}
+
+// //task 6
+// var hour = 13; 
+// if (hour < 18) {  alert ("Good day");}
+// else {alert ("Good evening"); }
 
 
 // //chapter 17-20
@@ -434,26 +481,25 @@ else if (b === "/"){
 // }
 
 // //task 7
-// var B = prompt ("welcome to abc bakery what do you want to oder")
+// var B = prompt ("welcome to abc bakery what do you want to order")
 // var A = ["cake", "apple pie", "cookie", "chips", "patties"]
-// if (B == A){
-//     alert ( B + " is available at our bakery");
-// } 
-// else {
-//     alert (B + " is not available at our bakery");
-// }
-
-
-
 
 // for (a=0; a<A.length; a++ ){
-// if (B === A){alert ( B + " is available at our bakery"); }
+// if (B === A[a]){alert ( B + " is available at our bakery"); }
 // else {
 // alert (B + " is not available at our bakery");}
 // break
 // }
 
 
+
+
+// if (B == A){
+//     alert ( B + " is available at our bakery");
+// } 
+// else {
+//     alert (B + " is not available at our bakery");
+// }
 
 // //task 8
 // var a  = [24, 53, 78, 91, 12]
