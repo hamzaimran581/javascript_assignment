@@ -11,8 +11,10 @@
 
 // //task 4
 // alert ("Welcome to js land..."); 
+// alert ("Happy coding"); 
 
-
+//task 5
+// done from console
 
 // //chapter 2
 
@@ -247,6 +249,9 @@
 // var result = --a - --b + ++b + b--; 
 // document.write("<br>result is " + result);
 
+// task 4
+// not mentioned
+
 // //task 3
 // var a = prompt ("enter your name");
 // alert ("Welcome "+ a);
@@ -277,6 +282,8 @@
 
 // +"</table>");
 
+// task 7
+// not mentioned
 
 // //chapter 9-11
 // //task 1
@@ -321,23 +328,50 @@
 // //task 5
 // var a = 4;
 //  if (++a === 5){ alert("given condition for variable a is true"); }   
- 
 // var b = 82; 
 //  if (b++ === 83){ alert("given condition for variable b is true"); }  
-
 //  var c = 12; 
 // if (c++ === 13){ alert("condition 1 is true"); } 
 // if (c === 13){ alert("condition 2 is true"); }
 // if (++c < 14){ alert("condition 3 is true"); }
 // if(c === 14){ alert("condition 4 is true"); } 
-
 // var materialCost = 20000;
 // var laborCost = 2000; 
 // var totalCost = materialCost + laborCost; 
 // if (totalCost === laborCost + materialCost){ alert("The cost equals"); }  
 // if (true){ alert("True"); } if (false){ alert("False"); }  
-
 // if("car" < "cat"){ alert("car is smaller than cat"); }  
+
+// // task 6
+// document.write("<b>Marks Sheet</b><br><br>");
+// sub1 = prompt("Enter your marks in first subject");
+// sub2 = prompt("Enter your marks in second subject");
+// sub3 = prompt("Enter your marks in thirs subject");
+// totalMarks = prompt("Enter you total Marks");
+// obMarks = +sub1 + +sub2 + +sub3;
+// per = (+obMarks / +totalMarks) * 100
+// document.write("Total Marks" + totalMarks + "<br>");
+// document.write("Marks Obtained: " + obMarks + "<br>");
+// document.write("Percentage: " + per + "%<br>");
+// if (per >= 80) {
+//     document.write("Grade: A-one<br>");
+//     document.write("Remarks: Excellent<br>");
+// }else {
+// if (per >= 70) {
+//     document.write("Grade: A<br>");
+//     document.write("Remarks: Good<br>");
+// }else {
+// if (per >= 60) {
+//     document.write("Grade: B<br>");
+//     document.write("Remarks: You need to improve<br>");
+// }else {
+// if (per < 60) {
+//     document.write("Grade: Fail<br>");
+//     document.write("Remarks: Sorry<br>");
+// }
+// }
+// }
+// }
 
 // //task 7
 // var secret = 6;
@@ -346,6 +380,23 @@
 // else if  (guess == 7) { alert ( "Close enough to the correct answer" );}
 // else if (guess < 7) { alert ( "Wrong answer try again after refreshing the page" );}
 // else if (guess > 7) { alert ( "Wrong answer try again after refreshing the page" );
+
+// // Task 8
+// var a = prompt("Enter any number");
+// if (a%3 === 0){
+//     alert("Number is Divisible by 3");
+// }else {
+//     alert("Number in not Divisible by 3");
+// }
+
+// // Task 9
+// var a = prompt("Enter any number");
+// if (a%2 === 0){
+//     alert("Enterned number is Even");
+// }else {
+//     alert("Entered number is Odd");
+// }
+
 
 // //task 10
 // var t= prompt("enter the temprature in your area");
@@ -422,6 +473,25 @@
 // if (hour < 18) {  alert ("Good day");}
 // else {alert ("Good evening"); }
 
+
+// // Task 7
+// var time = prompt("Enter time in 24 hours format:");
+// if (time >= 0000 && time < 1200){
+//     alert("Good Morning!");
+// }else {
+//     if (time >= 1200 && time < 1700){
+//         alert("Good Afernoon!");
+//     }else {
+//         if(time >= 1700 && time < 2100){
+//             alert("Good Evening!");
+//         }else {
+//             if(time >= 2100 && time <= 2359){
+//                 alert("Good Night!");
+//             }
+//         }
+//     }
+// }
+
 // //chapter 14-16
 // //task 1
 // var arr1 = [];
@@ -465,6 +535,12 @@
 // color = prompt(" what color you want to add to the beginning array")
 // alert (color);
 
+// // Task 10
+// var arrayOfScore = [320, 230, 480, 120];
+// document.write("Scores of students: " + arrayOfScore + "<br>");
+// arrayOfScore.sort();
+// document.write("Ordered Scores of students: " + arrayOfScore + "<br>");
+
 
 // //task 11
 // var cities = ["karachi" , "lahore" , "islamabad" , "peshawar" , "quetta"],
@@ -472,13 +548,13 @@
 // document.write ("<h1> cites list </h1>" + cities)
 // document.write ("<h1> selected cites list </h1>" + selectedcities)
 
-//task 12
-var arr = ["This" , "is", "my", "cat"]; 
-document.write ("<h1> array </h1> " + arr)
-document.write ("<h1> string </h1> ");
-for (i=0; i<arr.length; i++ ){
-    document.write (arr[i] + " ");
-}
+// //task 12
+// var arr = ["This" , "is", "my", "cat"]; 
+// document.write ("<h1> array </h1> " + arr)
+// document.write ("<h1> string </h1> ");
+// for (i=0; i<arr.length; i++ ){
+//     document.write (arr[i] + " ");
+// }
 
 
 // //chapter 17-20
@@ -537,25 +613,13 @@ for (i=0; i<arr.length; i++ ){
 //     document.write (i + "k" + " ");
 // }
 
-// //task 7
+// // //task 7
 // var B = prompt ("welcome to abc bakery what do you want to order")
 // var A = ["cake", "apple pie", "cookie", "chips", "patties"]
-
 // for (a=0; a<A.length; a++ ){
-// if (B === A[a]){alert ( B + " is available at our bakery"); }
-// else {
-// alert (B + " is not available at our bakery");}
+// if (B === A.indexOf(a)){alert ( B + " is available at our bakery");}
+// alert (B + " is not available at our bakery");
 // break
-// }
-
-
-
-
-// if (B == A){
-//     alert ( B + " is available at our bakery");
-// } 
-// else {
-//     alert (B + " is not available at our bakery");
 // }
 
 // //task 8
